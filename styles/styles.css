@@ -15,7 +15,7 @@
   font-display: swap;
 }
 body {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
   font-size: 22px;
   line-height: 36px;
   color: #000000;
@@ -23,16 +23,54 @@ body {
 }
 .page-header {
   color: #000000;
-background-color: #E5E5E5;
+  background: #FFFFFF;
 }
+
 .navigation-link {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
   line-height: 26px;
+  font-weight: 700;
+  text-align: center;
   color: inherit;
   text-decoration: none;
 }
 .main-index {
   color: #000000;
   background-color: #E5E5E5;
-  background-image: url("img/background-min.jpg")
+  background-image: url("/img/index-background.jpg");
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 485;
+  left: 40;
+  top: 65;
+}
+
+.main-index {
+  text-align: center;
+}
+
+.header-title {
+  font-family: PT Sans;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+.feature-list {
+  text-align: center;
+}
+
+.feature-item {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button-list {
+  font-family: inherit;
+  
+  color: #756257;
 }
