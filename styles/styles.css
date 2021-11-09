@@ -35,7 +35,7 @@ body {
   text-decoration: none;
 }
 
-.main-index {
+.welcome {
   background-image: url("/img/landscape.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -50,3 +50,60 @@ body {
   text-align: center;
 }
 
+.newsletter-container {
+  background-image: url("/img/rock.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 400px 65px;
+}
+.newsletter-title {
+  width: 1200px;
+  height: 411px;
+}
+
+
+.page-footer {
+  color: #000000;
+  background: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 72px;
+	padding-right: 72px;
+}
+.footer-social-list {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	padding-top: 50px;
+
+}
+.footer-social-item {
+	margin-right: 53px;
+}
+
+.footer-contacts-tel {
+	font-size: 40px;
+	line-height: 40px;
+	font-style: normal;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	margin-right: 82px;
+}
+.contact-tel {
+	color: #000000;
+}
+.htmlacademy-link {
+	display: block;
+	padding-top: 43px;
+}
+
+.breadrumbs-text {
+	font-size: 16px;
+	line-height: 21px;
+}
+.catalog-filter {
+  background-image: url("/img/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: 400px 65px;
+}
