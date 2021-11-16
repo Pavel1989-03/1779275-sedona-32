@@ -28,7 +28,6 @@ body {
 }
 
 .navigation-link {
-  font-family: "PT Sans";
   line-height: 26px;
   font-weight: 700;
   text-align: center;
@@ -48,7 +47,6 @@ body {
 }
 
 .title-promo {
-  font-family: "PT Sans";
   font-weight: 400;
   font-size: 22px;
   line-height: 36px;
@@ -89,7 +87,6 @@ body {
 }
 
 .sedona-info-title {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -98,7 +95,6 @@ body {
 }
 
 .sedona-info-title-item {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -107,7 +103,6 @@ body {
 }
 
 .advantage-number {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -116,7 +111,6 @@ body {
 }
 
 .sedona-info-item, .feature-list {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -125,7 +119,6 @@ body {
 }
 
 .feature-title {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -135,7 +128,6 @@ body {
 }
 
 .search-date, .newsletter-description-info {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -144,7 +136,6 @@ body {
 }
 
 .newsletter, .search-question, .newsletter-title {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -154,7 +145,6 @@ body {
 }
 
 .newsletter-form {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
@@ -172,7 +162,6 @@ body {
 }
 
 .newsletter-button {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -226,7 +215,7 @@ body {
 }
 
 .catalog-filter {
-  background-color: #FFFFFF;
+  background-color: #83B3D3;
   background-image: url("/img/mountain.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -234,7 +223,6 @@ body {
 }
 
 .inner-header-title {
-  font-family: "PT Sans";
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -242,7 +230,6 @@ body {
 }
 
 .breadcrumbs-link {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
@@ -250,7 +237,6 @@ body {
 }
 
 .catalog-filter-group {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -258,7 +244,6 @@ body {
 }
 
 .control-label {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
@@ -266,7 +251,6 @@ body {
 }
 
 .sorting-result {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
@@ -275,7 +259,6 @@ body {
 }
 
 .card-wrapper {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
@@ -283,7 +266,6 @@ body {
 }
 
 .hotel-index {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
@@ -291,7 +273,6 @@ body {
 }
 
 .sorting-container, .hotel-card-price {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
@@ -299,7 +280,6 @@ body {
 }
 
 .hotel-card-link, .hotel-card-button {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -309,7 +289,6 @@ body {
 }
 
 .hotel-rating {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
@@ -319,7 +298,6 @@ body {
 }
 
 .primary-button {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -331,7 +309,6 @@ body {
 }
 
 .pagination {
-  font-family: PT Sans;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -343,7 +320,6 @@ body {
 }
 
 .num-hotel {
-  font-family: PT Sans;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
