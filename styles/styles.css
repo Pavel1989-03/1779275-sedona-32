@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "PT ans";
+  font-family: "PT Sans";
   font-size: 22px;
   line-height: 36px;
   color: #000000;
@@ -36,16 +36,6 @@ body {
   text-decoration: none;
 }
 
-.header-title {
-  font-family: "PT Sans";
-  font-weight: 700;
-  font-style: normal;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: Center;
-  color: #000000;
-}
-
 .welcome {
   background-image: url("/img/landscape.jpg");
   background-repeat: no-repeat;
@@ -60,7 +50,6 @@ body {
 .title-promo {
   font-family: "PT Sans";
   font-weight: 400;
-  font-style: normal;
   font-size: 22px;
   line-height: 36px;
   text-align: center;
@@ -101,7 +90,6 @@ body {
 
 .sedona-info-title {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -111,7 +99,6 @@ body {
 
 .sedona-info-title-item {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -121,7 +108,6 @@ body {
 
 .advantage-number {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -129,9 +115,8 @@ body {
   text-transform: uppercase;
 }
 
-.sedona-info-item {
+.sedona-info-item, .feature-list {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
@@ -139,9 +124,8 @@ body {
   color: #333333;
 }
 
-.feature-list {
+.feature-title {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -150,30 +134,8 @@ body {
   color: #000000;
 }
 
-.feature-list {
+.search-date, .newsletter-description-info {
   font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-  text-align: center;
-  color: #333333;
-}
-
-.search-question {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.search-date {
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 22px;
   line-height: 26px;
@@ -181,42 +143,18 @@ body {
   color: #333333;
 }
 
-
-.newsletter {
+.newsletter, .search-question, .newsletter-title {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
-
-}
-
-.newsletter-title {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000000;
-}
-
-.newsletter-description-info {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 26px;
-  color: #333333;
 }
 
 .newsletter-form {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
@@ -225,9 +163,16 @@ body {
   color: #000000;
 }
 
+.newsletter-container-item {
+  background-image: url("/img/rock.jpg");
+  width: 1200px;
+  height: 411px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
 .newsletter-button {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -261,7 +206,6 @@ body {
 .footer-contacts-tel {
   font-size: 40px;
   line-height: 40px;
-  font-style: normal;
   padding-top: 40px;
   padding-bottom: 30px;
   margin-right: 82px;
@@ -282,6 +226,7 @@ body {
 }
 
 .catalog-filter {
+  background-color: #FFFFFF;
   background-image: url("/img/mountain.jpg");
   background-repeat: no-repeat;
   background-size: auto;
@@ -290,7 +235,6 @@ body {
 
 .inner-header-title {
   font-family: "PT Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
@@ -299,7 +243,6 @@ body {
 
 .breadcrumbs-link {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
@@ -308,7 +251,6 @@ body {
 
 .catalog-filter-group {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -317,7 +259,6 @@ body {
 
 .control-label {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
@@ -326,7 +267,6 @@ body {
 
 .sorting-result {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 30px;
   line-height: 39px;
@@ -336,7 +276,6 @@ body {
 
 .card-wrapper {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
@@ -345,45 +284,22 @@ body {
 
 .hotel-index {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
 }
 
-.sorting-container {
+.sorting-container, .hotel-card-price {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   color: #333333;
 }
 
-.hotel-card-price {
+.hotel-card-link, .hotel-card-button {
   font-family: PT Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 23px;
-  color: #333333;
-}
-
-.hotel-card-link {
-  font-family: PT Sans;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.hotel-card-button {
-  font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
@@ -394,7 +310,6 @@ body {
 
 .hotel-rating {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 21px;
@@ -405,7 +320,6 @@ body {
 
 .primary-button {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -418,7 +332,6 @@ body {
 
 .pagination {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
@@ -431,7 +344,6 @@ body {
 
 .num-hotel {
   font-family: PT Sans;
-  font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 23px;
